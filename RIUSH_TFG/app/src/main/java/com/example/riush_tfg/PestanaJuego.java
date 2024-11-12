@@ -1,9 +1,14 @@
 package com.example.riush_tfg;
+import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
-public class PestanaJuego {
+public class PestanaJuego extends AppCompatActivity{
 
+
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
