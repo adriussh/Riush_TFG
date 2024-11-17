@@ -13,28 +13,24 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button play;
-    Button Registrar;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        play=(Button)findViewById(R.id.PLAY);
-        Registrar=(Button)findViewById(R.id.REGISTRAR);
-
-        Registrar.setOnClickListener(new View.OnClickListener() {
+        Button REGISTRAR = findViewById(R.id.REGISTRAR);
+        REGISTRAR.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                startActivity(new Intent(MainActivity.this, PestanaRegistro.class));
+                Intent intent = new Intent(MainActivity.this, PestanaRegistro.class);
+                startActivity(intent);
             }
         });
-        play.setOnClickListener(new View.OnClickListener() {
+        Button PLAY = findViewById(R.id.PLAY);
+        PLAY.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                startActivity(new Intent(MainActivity.this, PestanaJuego.class));
+                Intent intent = new Intent(MainActivity.this, PestanaJuego.class);
+                startActivity(intent);
             }
         });
         Button EXIT = findViewById(R.id.EXIT);

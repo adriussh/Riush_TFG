@@ -59,7 +59,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/campo_usuario"
+        android:id="@+id/usuario"
         android:layout_width="362dp"
         android:layout_height="51dp"
         android:layout_marginStart="34dp"
@@ -75,7 +75,7 @@
         app:layout_constraintVertical_bias="0.439" />
 
     <EditText
-        android:id="@+id/campo_contraseña"
+        android:id="@+id/clave"
         android:layout_width="362dp"
         android:layout_height="51dp"
         android:layout_marginStart="34dp"
@@ -91,13 +91,13 @@
         app:layout_constraintVertical_bias="0.56" />
 
     <Button
-        android:id="@+id/button_guardar"
+        android:id="@+id/button_Registrar"
         android:layout_width="91dp"
         android:layout_height="56dp"
         android:layout_margin="5dp"
         android:background="#4CAF50"
         android:padding="15dp"
-        android:text="GUARDAR"
+        android:text="Registrar"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -107,13 +107,13 @@
         app:layout_constraintVertical_bias="0.692" />
 
     <Button
-        android:id="@+id/button_cancelar"
+        android:id="@+id/button_Login"
         android:layout_width="101dp"
         android:layout_height="54dp"
         android:layout_margin="5dp"
         android:background="#4CAF50"
         android:padding="15dp"
-        android:text="CANCELAR"
+        android:text="Iniciar Sesión"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
