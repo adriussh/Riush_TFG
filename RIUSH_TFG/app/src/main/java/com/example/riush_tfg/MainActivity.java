@@ -1,15 +1,15 @@
 package com.example.riush_tfg;
 
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+
+import com.example.riush_tfg.Database.DBHelper;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,6 +25,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        REGISTRAR.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                DBHelper dbHelper = new DBHelper(MainActivity.this);
+                SQLiteDatabase db = dbHelper.getWritableDatabase();
+
+            }
+        });
         Button PLAY = findViewById(R.id.PLAY);
         PLAY.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,12 +42,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         Button EXIT = findViewById(R.id.EXIT);
-        EXIT.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finishAffinity();
-            }
-        });
+        EXIT.setOnClickListener(v -> finishAffinity());
 
     }
 }
