@@ -112,7 +112,7 @@
         android:layout_height="60dp"
         android:layout_margin="5dp"
         android:padding="15dp"
-        android:text="Iniciar Sesión"
+        android:text="Salir"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

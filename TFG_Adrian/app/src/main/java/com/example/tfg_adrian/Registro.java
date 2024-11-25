@@ -44,6 +44,14 @@ public class Registro extends AppCompatActivity {
 
             }
         });
+
+        button_salir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+
     }
 
     private void limpiar(){
