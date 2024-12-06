@@ -37,7 +37,7 @@ public class IncioActivity extends AppCompatActivity {
         startGameButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(IncioActivity.this, MainActivity2.class);
+                Intent intent = new Intent(IncioActivity.this, flappy.class);
                 startActivity(intent);
                 finish();
             }
