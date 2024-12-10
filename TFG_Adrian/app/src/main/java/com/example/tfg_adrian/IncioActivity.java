@@ -7,10 +7,6 @@ import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
-
 
 
 public class IncioActivity extends AppCompatActivity {
@@ -37,7 +33,7 @@ public class IncioActivity extends AppCompatActivity {
         startGameButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(IncioActivity.this, flappy.class);
+                Intent intent = new Intent(IncioActivity.this, flappybird.class);
                 startActivity(intent);
                 finish();
             }
