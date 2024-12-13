@@ -42,7 +42,6 @@ public class BitmapBank
         pipe[1] = BitmapFactory.decodeResource(resources, R.drawable.bottomtube);
         pipe[1] = scaleImage(pipe[1], pipe[1].getWidth()/3, pipe[1].getHeight()/2);
 
-
         gameOver = BitmapFactory.decodeResource(resources, R.drawable.gameover);
 
         retryBtn = BitmapFactory.decodeResource(resources, R.drawable.retrybtn);

@@ -1,7 +1,6 @@
 package com.example.tfg_adrian;
 
 public class BackgroundImage {
-
     private int backgroundImageX, backgroundImageY, getBackgroundVelocity;
 
     public BackgroundImage(){

@@ -9,7 +9,6 @@ public class
 
 AppConstants {
 
-
     static BitmapBank bitmapBank;
 
     static  int SCREEN_WIDTH, SCREEN_HEIGHT;

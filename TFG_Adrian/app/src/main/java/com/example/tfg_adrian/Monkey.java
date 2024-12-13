@@ -14,7 +14,6 @@ public class Monkey {
         maxFrame = 1;
         velocity = 0;
     }
-
     public int getCurrentFrame(){
         return currentFrame;
     }

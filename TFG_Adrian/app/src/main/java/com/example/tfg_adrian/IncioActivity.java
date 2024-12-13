@@ -11,7 +11,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class IncioActivity extends AppCompatActivity {
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

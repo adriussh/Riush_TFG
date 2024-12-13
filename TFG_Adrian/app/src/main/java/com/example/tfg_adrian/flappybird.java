@@ -13,7 +13,6 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class flappybird extends AppCompatActivity{
     Button playtBtn;
-
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -7,7 +7,6 @@ import android.os.SystemClock;
 import android.util.Log;
 import android.view.Surface;
 import android.view.SurfaceHolder;
-
 public class GameThread extends Thread {
 
     SurfaceHolder surfaceHolder;

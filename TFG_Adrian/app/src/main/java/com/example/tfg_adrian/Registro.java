@@ -19,7 +19,6 @@ public class Registro extends AppCompatActivity {
 
     EditText usuario, contrasena;
     Button button_guardar, button_salir;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

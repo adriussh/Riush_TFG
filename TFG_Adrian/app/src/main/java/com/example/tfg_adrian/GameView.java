@@ -73,7 +73,6 @@ public class GameView extends SurfaceView implements SurfaceHolder.Callback {
         InitView();
         startGameThread(getHolder());
     }
-
     private void startGameThread(SurfaceHolder surfaceHolder) {
         if (gameThread == null || !gameThread.isRunning()) {
             gameThread = new GameThread(surfaceHolder);

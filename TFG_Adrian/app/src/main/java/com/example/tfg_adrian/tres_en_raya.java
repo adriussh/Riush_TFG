@@ -19,7 +19,6 @@ import java.util.Arrays;
 
 public class tres_en_raya extends AppCompatActivity {
     private static final String TAG = "MainActivity";
-
     TextView maintext;
 
     Integer [] botones;
